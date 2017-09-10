@@ -1,0 +1,8 @@
+version: "3"
+
+services:
+  python-app:
+    image: localhost:8123/docker-python:1.0-SNAPSHOT
+    container_name: python-app
+    ports:
+      - "8000:8000"
